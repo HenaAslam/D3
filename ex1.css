@@ -1,0 +1,41 @@
+body{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+header{
+    background-color: rgb(11, 11, 44);
+    height:15vh;
+    
+}
+footer{
+    background-color: rgb(11, 11, 44);
+    height:15vh;
+    
+}
+main{
+    background-color: white;
+    color:black;
+    width:60%;
+    
+    
+}
+aside{
+    background-color: blue;
+    width:20%;
+    
+    height:60vh;
+}
+nav{
+    background-color: rgb(229, 17, 151);
+    width:20%;
+    
+}
+
+.container{
+    display:flex;
+    
+    
+
+}
