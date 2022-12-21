@@ -1,0 +1,31 @@
+body{
+    margin:0;
+    
+}
+li{
+    list-style-type: none;
+}
+.one{
+    background-color: palegreen;
+    height:400px;
+    border-right:1px solid black;
+    color:white;
+
+}
+.two{
+    background-color: skyblue;
+   height:400px;
+    font-weight: bold;
+    color: white;
+}
+.three{
+    background-color: lightsalmon;
+    color:black;
+    height: 400px;
+}
+.container{
+    display:flex;
+    border:1px solid black;
+    border-radius: 10px;
+    
+}
