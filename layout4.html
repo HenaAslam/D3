@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: white;
+    
+}
+header{
+     background-color: rgb(11, 11, 44);
+     padding:10px;
+     height:20vh;
+}
+footer{
+    background-color: rgb(11, 11, 44);
+    padding:10px;
+    height: 20vh;
+}
+main{
+    background-color: white;
+    color:black;
+    padding:10px;
+    flex-grow:3;
+    
+    
+}
+aside{
+    background-color: blue;
+    padding:10px;
+    flex-grow: 1;
+   
+    
+}
+nav{
+    background-color: rgb(229, 17, 151);
+    flex-grow: 1;
+    padding:10px;
+
+}
+.container{
+    display:flex;
+    height:78vh;
+    
+}
+.sub{
+    display: flex;
+    flex-grow: 4;
+
+}
+
+
+@media(max-width:800px){
+    .container{
+        flex-direction: column;
+        
+    }
+    
+    .sub{
+        display:flex;
+        height:60vh;
+
+    }
+    main{
+        flex-grow: 8;
+    }
+} 
+
+@media(max-width:450px){
+
+    .sub{
+        flex-direction: column;
+    }
+    main{
+        flex-grow: 8;
+    }
+}
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        Header
+    </header>
+    <div class="container">
+    <nav>
+        nav
+    </nav>
+    <div class="sub">
+    <main>
+        Article
+    </main>
+    <aside>
+        Aside
+    </aside>
+</div>
+</div>
+    <footer>
+        Footer
+    </footer>
+</body>
+</html>
